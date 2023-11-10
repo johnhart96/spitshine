@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+#menubar {
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    border: solid 1px #000;
+    height: 50px;
+    background-color: #CCC;
+}
+#menubar #btngroup {
+    margin: 0 auto;
+    width: 0;
+    display: inline;
+}
+#menubar #btngroup button {
+    height: 50px;
+}
+#title {
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: solid 1px #000;
+    width: 100%;
+    background-color: #CCC;
+}
+#plus {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+}
+#list {
+    margin-top: 55px;
+}
+#list #list_table {
+    border: solid 2px #000;
+    font-size: 20px;
+}
+#list #list_table td {
+    border: solid 1px #ccc;
+    text-align: center;
+}
+.red {
+    background-color: red;
+    color: #fff;
+}
+.amber {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+    color: #fff;
+}
